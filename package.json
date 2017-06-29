@@ -1,0 +1,38 @@
+{
+  "name": "gif-me-duration",
+  "version": "1.0.0",
+  "description": "Get the duration of externally hosted gifs by url",
+  "main": "index.js",
+  "engines": {
+    "node": "7.6.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Streed12/gif-me-duration.git"
+  },
+  "keywords": [
+    "gif",
+    "gif",
+    "duration",
+    "gif",
+    "time",
+    "length",
+    "of",
+    "gif"
+  ],
+  "author": "Steven Reed <steve.t.reed@gmail.com> (https://github.com/Streed12)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Streed12/gif-me-duration/issues"
+  },
+  "homepage": "https://github.com/Streed12/gif-me-duration#readme",
+  "dependencies": {
+    "base64-image": "^0.1.0",
+    "base64-img": "^1.0.3",
+    "gify-parse": "^1.0.6"
+  },
+  "devDependencies": {}
+}
