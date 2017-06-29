@@ -26,7 +26,7 @@ npm install gif-me-duration
 
 ```js
 // Require or import the package (name it anything you'd like) wherever you'd like to use it:
-import gifDurations from 'gif-me-duration';
+const gifDurations = require('gif-me-duration');
 
 // Function takes in an array of gif urls
 let gifUrls = [
