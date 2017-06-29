@@ -1,6 +1,10 @@
 # gif-me-duration
 Promise-based gif duration module.
 
+## Install
+```bash
+npm i gif-me-duration
+```
 ## Notes
 Essentially, this module just uses a very small part of gify-parse allowing users to get the duration for an array of gif urls. If desired, we could add more dimensions to the module - gif height, width, images from the gif. All properties available thanks to the [gify-parse](https://github.com/JonasHavers/node-gify-parse) module gif-me-duration is based upon.
 
@@ -20,7 +24,7 @@ Essentially, this module just uses a very small part of gify-parse allowing user
 
 ## Usage
 ```bash
-npm install gif-me-duration
+npm i gif-me-duration
 ```
 ### How to Use
 
