@@ -1,6 +1,6 @@
 {
   "name": "gif-me-duration",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get the duration of externally hosted gifs by url",
   "main": "index.js",
   "engines": {
