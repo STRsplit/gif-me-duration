@@ -7,7 +7,7 @@
     "node": "7.6.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-register --require babel-polyfill --recursive"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,11 @@
     "base64-img": "^1.0.3",
     "gify-parse": "^1.0.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.4.2"
+  }
 }
