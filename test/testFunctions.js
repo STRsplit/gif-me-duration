@@ -23,6 +23,7 @@ const attachDuration = async (url) => {
 };
 
 const coreFunction = async (urls) => {
+  urls = [].concat(urls)
   const promisedUrls = urls.map(attachDuration)
   return await Promise.all(promisedUrls);
 }
