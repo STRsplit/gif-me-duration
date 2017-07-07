@@ -23,7 +23,7 @@ const attachDuration = async (url) => {
 };
 
 module.exports = async (urls) => {
-  urls = [].concat(urls);
-  const promisedUrls = urls.map(attachDuration)
+  let gifURLs = [].concat(urls);
+  const promisedUrls = gifURLs.map(attachDuration)
   return await Promise.all(promisedUrls);
 };

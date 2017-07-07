@@ -6,7 +6,9 @@ Promise-based gif duration module.
 npm i gif-me-duration
 ```
 ## Notes
-Essentially, this module just uses a very small part of [gify-parse](https://github.com/JonasHavers/node-gify-parse) allowing users to get the duration for an array of gif urls.
+Essentially, this module just uses a very small part of [gify-parse](https://github.com/JonasHavers/node-gify-parse) allowing users to get the duration for a single gif url or an array of gif urls.
+
+Updated to allow for single or array of gif urls.
 
 ## Authors
 
@@ -32,7 +34,7 @@ npm i gif-me-duration
 // Require or import the package (name it anything you'd like) wherever you'd like to use it:
 const gifDurations = require('gif-me-duration');
 
-// Function takes in an array of gif urls
+// Function takes in a single url or array of gif urls
 let gifUrls = [
   'http://media2.giphy.com/media/FiGiRei2ICzzG/200.gif',
   'http://media0.giphy.com/media/feqkVgjJpYtjy/200.gif'
