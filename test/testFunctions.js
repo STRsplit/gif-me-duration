@@ -27,6 +27,7 @@ const coreFunction = async (urls) => {
   const promisedUrls = urls.map(attachDuration)
   return await Promise.all(promisedUrls);
 }
+
 module.exports = {
   base64Async,
   getDuration,
