@@ -2,3 +2,4 @@ test.js
 npm-debug.log
 test/
 .DS_Store
+node_modules/
