@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Streed12/gif-me-duration#readme",
   "dependencies": {
-    "base64-img": "^1.0.3",
+    "axios": "^0.16.2",
     "gify-parse": "^1.0.6"
   },
   "devDependencies": {
