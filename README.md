@@ -9,13 +9,13 @@ npm i gif-me-duration
 Essentially, this module just uses a very small part of [gify-parse](https://github.com/JonasHavers/node-gify-parse) allowing users to get the duration for a single gif url or an array of gif urls.
 
 ### Updates:
-  - 1.0.5: simplified img to binary process
+  - 1.0.6: simplified img to binary process
   - 1.0.4: allows single or array of gif urls.
 
 ## Authors
 
   - [Eugene Shifrin](https://github.com/eshifrin)
-  - [Steven Reed](https://github.com/Streed12)
+  - [Steven Reed](https://github.com/STRsplit)
 
 ## Table of Contents
 
@@ -56,12 +56,12 @@ const promiseExample = () => {
 ```
 
 ## Requirements
-- Node 7.6
+- Node ^7.6
 
 ## Contributing
 This was intentionally made to be a very limited use, but if you would like to contribute please make a pull request with your work. Feel free to contact me and introduce yourself as well.
 
 ## Acknowledgments
 - [axios](https://www.npmjs.com/package/axios) by [Nick Uraltsev](https://github.com/nickuraltsev) & [mzabriskie](https://github.com/mzabriskie) for gif request.
-- [Jonas Havers](https://github.com/JonasHavers) - Jonah's [gify-parse](https://github.com/JonasHavers/node-gify-parse) based on [Ryan French's](https://github.com/rfrench/) [gify](https://github.com/rfrench/gify) is the core of the module, we just encapsulated it for a very specific need. 
+- [Jonas Havers](https://github.com/JonasHavers) - Jonas' [gify-parse](https://github.com/JonasHavers/node-gify-parse) based on [Ryan French's](https://github.com/rfrench/) [gify](https://github.com/rfrench/gify) is the core of the module, we just encapsulated it for a very specific need. 
 
