@@ -56,12 +56,11 @@ const promiseExample = () => {
 ```
 
 ## Requirements
-- Node ^7.6
+- Node ^8
 
 ## Contributing
 This was intentionally made to be a very limited use, but if you would like to contribute please make a pull request with your work. Feel free to contact me and introduce yourself as well.
 
 ## Acknowledgments
-- [axios](https://www.npmjs.com/package/axios) by [Nick Uraltsev](https://github.com/nickuraltsev) & [mzabriskie](https://github.com/mzabriskie) for gif request.
 - [Jonas Havers](https://github.com/JonasHavers) - Jonas' [gify-parse](https://github.com/JonasHavers/node-gify-parse) based on [Ryan French's](https://github.com/rfrench/) [gify](https://github.com/rfrench/gify) is the core of the module, we just encapsulated it for a very specific need. 
 

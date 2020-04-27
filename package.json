@@ -1,17 +1,18 @@
 {
   "name": "gif-me-duration",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Get the duration of externally hosted gifs by url",
-  "main": "index.js",
+  "main": "lib/index.js",
   "engines": {
-    "node": "7.6.x"
+    "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "mocha --require babel-register --require babel-polyfill --recursive"
+    "test": "mocha --require @babel/register --require @babel/polyfill --recursive",
+    "build": "babel index.js --out-dir lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Streed12/gif-me-duration.git"
+    "url": "https://github.com/Strsplit/gif-me-duration.git"
   },
   "keywords": [
     "gif",
@@ -22,19 +23,22 @@
     "length of gif",
     "gif"
   ],
-  "author": "Steven Reed <steve.t.reed@gmail.com> (https://github.com/Streed12)",
+  "author": "Steven Reed <steve.t.reed@gmail.com> (https://github.com/STRsplit)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Streed12/gif-me-duration/issues"
+    "url": "https://github.com/STRsplit/gif-me-duration/issues"
   },
-  "homepage": "https://github.com/Streed12/gif-me-duration#readme",
+  "homepage": "https://github.com/STRsplit/gif-me-duration#readme",
   "dependencies": {
-    "axios": "^0.16.2",
-    "gify-parse": "^1.0.6"
+    "gify-parse": "^1.0.6",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "babel-polyfill": "^6.23.0",
-    "babel-register": "^6.24.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
     "chai": "^4.0.2",
     "chai-as-promised": "^7.1.1",
     "mocha": "^3.4.2"
