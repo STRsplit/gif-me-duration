@@ -9,6 +9,7 @@ npm i gif-me-duration
 Essentially, this module just uses a very small part of [gify-parse](https://github.com/JonasHavers/node-gify-parse) allowing users to get the duration for a single gif url or an array of gif urls.
 
 ### Updates:
+  - 1.0.8: removed axios dependency in favor of smaller node-fetch
   - 1.0.6: simplified img to binary process
   - 1.0.4: allows single or array of gif urls.
 
